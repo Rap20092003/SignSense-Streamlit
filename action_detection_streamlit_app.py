@@ -17,7 +17,7 @@ custom_objects = {'LSTM': CustomLSTM}
 model = load_model('action.h5', custom_objects=custom_objects)
 
 # Load actions and colors (these would be specific to the trained model)
-actions = np.array(['action1', 'action2', 'action3'])  # Example actions
+actions = np.array(['Hello', 'I Love You', 'Thank You'])  # Example actions
 colors = [(245, 117, 16), (117, 245, 16), (16, 117, 245)]
 
 # Initialize MediaPipe holistic model
